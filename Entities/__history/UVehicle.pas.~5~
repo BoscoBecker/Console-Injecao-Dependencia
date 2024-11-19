@@ -1,0 +1,35 @@
+unit UVehicle;
+
+interface
+
+
+type
+  Vehicle = class
+  private
+    FModel: string;
+    public
+      procedure SetModel(const Value: string);
+      property Model: string  read FModel write SetModel;
+      constructor Create(model :string);
+      destructor Destroy;
+  end;
+
+
+implementation
+
+constructor Vehicle.Create(model: string);
+begin
+  SetModel(model);
+end;
+
+destructor Vehicle.Destroy;
+begin
+
+end;
+
+procedure Vehicle.SetModel(const Value: string);
+begin
+  FModel := Value;
+end;
+
+end.

@@ -1,0 +1,14 @@
+unit UITaxService;
+
+interface
+
+type
+  ITaxService = interface
+  ['{90A6DD08-0D67-4BB8-A95C-2F236F91C7AF}']
+    function Tax(amount:Double):double;
+  end;
+
+
+implementation
+
+end.

@@ -1,0 +1,29 @@
+unit UVehicle;
+
+interface
+
+
+type
+  Vehicle = class
+    public
+      constructor Create(model :string);
+      destructor Destroy;
+
+  end;
+
+
+implementation
+
+{ Vehicle }
+
+constructor Vehicle.Create(model: string);
+begin
+
+end;
+
+destructor Vehicle.Destroy;
+begin
+
+end;
+
+end.

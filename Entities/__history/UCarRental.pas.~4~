@@ -1,0 +1,41 @@
+unit UCarRental;
+
+interface
+
+uses UVehicle;
+
+type
+  CarTental= class
+  private
+    FStart: TDateTime;
+    FFinish: TDateTime;
+    FVehicle: Vehicle;
+    procedure SetStart(const Value: TDateTime);
+    procedure SetFinish(const Value: TDateTime);
+    procedure SetVehicle(const Value: Vehicle);
+  published
+    property Start: TDateTime read FStart write SetStart;
+    property Finish: TDateTime read FFinish write SetFinish;
+    property Vehicle: Vehicle read FVehicle write SetVehicle;
+  end;
+
+implementation
+
+{ CarTental }
+
+procedure CarTental.SetFinish(const Value: TDateTime);
+begin
+  FFinish := Value;
+end;
+
+procedure CarTental.SetStart(const Value: TDateTime);
+begin
+  FStart := Value;
+end;
+
+procedure CarTental.SetVehicle(const Value: Vehicle);
+begin
+  FVehicle := Value;
+end;
+
+end.

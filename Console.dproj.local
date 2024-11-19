@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2024/11/18 21:10:30.023,D:\Projetos\Delphi\Console-Injecao-Dependencia\Console.dproj=C:\Users\Usuário\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/11/18 21:11:24.250,=D:\Projetos\Delphi\Console-Injecao-Dependencia\Unit1.pas</Transaction>
+    <Transaction>2024/11/18 21:11:56.868,D:\Projetos\Delphi\Console-Injecao-Dependencia\Entities\UCarRental.pas=D:\Projetos\Delphi\Console-Injecao-Dependencia\Unit1.pas</Transaction>
+    <Transaction>2024/11/18 21:15:19.857,=D:\Projetos\Delphi\Console-Injecao-Dependencia\Unit1.pas</Transaction>
+    <Transaction>2024/11/18 21:15:32.293,D:\Projetos\Delphi\Console-Injecao-Dependencia\Entities\UVehicle.pas=D:\Projetos\Delphi\Console-Injecao-Dependencia\Unit1.pas</Transaction>
+    <Transaction>2024/11/18 21:21:47.902,=D:\Projetos\Delphi\Console-Injecao-Dependencia\Unit1.pas</Transaction>
+    <Transaction>2024/11/18 21:21:59.371,D:\Projetos\Delphi\Console-Injecao-Dependencia\Entities\UInvoice.pas=D:\Projetos\Delphi\Console-Injecao-Dependencia\Unit1.pas</Transaction>
+    <Transaction>2024/11/18 21:43:22.955,=D:\Projetos\Delphi\Console-Injecao-Dependencia\Unit1.pas</Transaction>
+    <Transaction>2024/11/18 21:43:56.310,D:\Projetos\Delphi\Console-Injecao-Dependencia\Services\Interfaces\UITaxService.pas=D:\Projetos\Delphi\Console-Injecao-Dependencia\Unit1.pas</Transaction>
+    <Transaction>2024/11/18 22:19:07.039,=D:\Projetos\Delphi\Console-Injecao-Dependencia\Unit1.pas</Transaction>
+    <Transaction>2024/11/18 22:19:36.950,D:\Projetos\Delphi\Console-Injecao-Dependencia\Services\UBrazilTaxService.pas=D:\Projetos\Delphi\Console-Injecao-Dependencia\Unit1.pas</Transaction>
+    <Transaction>2024/11/18 22:31:20.888,=D:\Projetos\Delphi\Console-Injecao-Dependencia\Unit1.pas</Transaction>
+    <Transaction>2024/11/18 22:31:31.893,D:\Projetos\Delphi\Console-Injecao-Dependencia\Services\URentalService.pas=D:\Projetos\Delphi\Console-Injecao-Dependencia\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

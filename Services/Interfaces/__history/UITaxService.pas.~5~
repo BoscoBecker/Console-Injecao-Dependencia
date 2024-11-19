@@ -1,0 +1,13 @@
+unit UITaxService;
+
+interface
+
+type
+  ITaxService = interface
+    function Tax(amount:Double):double;
+  end;
+
+
+implementation
+
+end.

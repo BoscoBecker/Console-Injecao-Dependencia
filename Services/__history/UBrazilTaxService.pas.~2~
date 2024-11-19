@@ -1,0 +1,26 @@
+unit UBrazilTaxService;
+
+interface
+
+uses UITaxService;
+
+type
+  BrazilTaxService = class(TInterfacedObject,ITaxService)
+  function Tax(amount:Double):double;
+
+  end;
+
+
+implementation
+
+{ BrazilTaxService }
+
+function BrazilTaxService.Tax(amount: Double): double;
+begin
+  if amount <= 100  then
+    result:= amount * 0.2
+  else
+    result:= amount * 0.15;
+end;
+
+end.

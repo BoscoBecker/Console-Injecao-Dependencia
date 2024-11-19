@@ -21,8 +21,7 @@ type
 
 implementation
 
-constructor RentalService.Create(pricePerHour, priceByDay: Double;
-  iTaxService: ITaxService);
+constructor RentalService.Create(pricePerHour, priceByDay: Double; iTaxService: ITaxService);
 begin
   SetPricePerHour(pricePerHour);
   SetPriceByDay(priceByDay);

@@ -11,8 +11,8 @@ type
     private FVehicle: Vehicle;
     private procedure SetStart(const Value: TDateTime);
     private procedure SetFinish(const Value: TDateTime);
-    private FInvoice: Invoice;
-    procedure SetVehicle(const Value: Vehicle);
+    private
+    FInvoice: Invoice; procedure SetVehicle(const Value: Vehicle);
     procedure SetInvoice(const Value: Invoice);
     public property Start: TDateTime read FStart write SetStart;
     public property Finish: TDateTime read FFinish write SetFinish;
